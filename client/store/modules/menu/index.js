@@ -1,9 +1,10 @@
 import * as types from '../../mutation-types'
 import lazyLoading from './lazyLoading'
 import charts from './charts'
-import uifeatures from './uifeatures'
-import components from './components'
-import tables from './tables'
+//  import uifeatures from './uifeatures'
+//  import components from './components'
+//  import tables from './tables'
+import seatmap from './seatmap'
 
 // show: meta.label -> name
 // name: component name
@@ -20,9 +21,10 @@ const state = {
       component: lazyLoading('dashboard', true)
     },
     charts,
-    uifeatures,
-    components,
-    tables
+    //  uifeatures,
+    //  components,
+    //  tables,
+    seatmap
   ]
 }
 
